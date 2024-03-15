@@ -12,7 +12,7 @@ image = cv2.imread("mos.png")
 # Flip orizontal pentru a corecta orientarea
 image = cv2.flip(image, 0)
 
-# Rotateste imaginea cu 180 de grade
+# Roteste imaginea cu 180 de grade
 image = cv2.rotate(image, cv2.ROTATE_180)
 
 # Convertirea imaginii în tonuri de gri
